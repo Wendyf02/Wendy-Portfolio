@@ -1,22 +1,33 @@
 import React from "react";
-import NavBar from "./components/NavBar"
-import Home from "./components/Home"
+import { BrowserRouter as Router,Switch, Route} from "react-router-dom";
+import Navbar from "./Components/Navbar"
+import Home from "./Components/Home"
 
+// import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <switch>
-        <Route exact path={["/"]}>
-            <Jumbotron />
-             <Home />
-        </Route>
+    
+    <Router> 
+  <Switch> 
+  <Route exact path={"/"}>
+  <Navbar/>
+    <Home/>
+  </Route>
 
-
-      </switch>
+  </Switch>
+    {/* // <div>
+    //   <Switch>
+    //     <Route exact path={["/"]}>
+    //         <Navbar/>
+    //          <Home />
+    //     </Route>
+    //   </Switch>
    
-    </div>
+    //  </div> */}
+
+    </Router>
   );
 }
 
