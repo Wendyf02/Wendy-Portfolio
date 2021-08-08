@@ -2,9 +2,10 @@ import React from "react";
 import { BrowserRouter as Router,Switch, Route} from "react-router-dom";
 import Navbar from "./Components/Navbar"
 import Home from "./Components/Home"
-
-// import "bootstrap/dist/css/bootstrap.min.css";
+import Project from "./Components/Project"
+import About from "./Components/About"
 import './App.css';
+
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
   <Route exact path={"/"}>
     <Navbar/>
     <Home/>
+    <About/>
+    <Project/>
+
   </Route>
 
   </Switch>
