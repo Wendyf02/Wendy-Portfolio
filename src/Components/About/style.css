@@ -1,0 +1,20 @@
+
+
+#aboutme {
+    margin-top:100px;
+    margin-bottom: 15px;;
+    
+}
+
+/* 
+#image2 {
+    height:200px;
+    width:300px;
+    margin-top: 100px;
+} */
+
+
+.aboutme {
+    text-align:justify;
+    color: rgb(18, 30, 66);
+}
