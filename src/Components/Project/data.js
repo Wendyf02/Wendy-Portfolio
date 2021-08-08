@@ -1,20 +1,25 @@
 import burgerpicture from "../../image/burgercard.png"
+import codequizpicture from "../../image/Codequizcard.png"
+import workdaypicture from "../../image/workdaycard.png"
+import projectgivebackpicture from "../../image/projectgivebackcard.png"
+import budgettrackerpicture from "../../image/budgettrackercard.png"
+import unifyingourvotepicture from "../../image/unifyingourvotecard.png"
 
 export default
 
 {
-    name: 'Wendy Figueroa',
-    headerTagline:  [
+    // name: 'Wendy Figueroa',
+    // headerTagline:  [
 
-           'I am Wendy Figueroa',
+    //        'I am Wendy Figueroa',
 
 
-    ],
-    contactEmail: 'camomila444@gmail.com',
-    resume: './image/resume.pdf',
+    // ],
+    // contactEmail: 'camomila444@gmail.com',
+    // resume: './image/resume.pdf',
     
-    aboutImage: './selfimage.png',
-    ShowAboutImage:true,
+    // aboutImage: './selfimage.png',
+    // ShowAboutImage:true,
     
 
     project: [
@@ -22,7 +27,7 @@ export default
             id: 1,
             title: 'Code Quiz',
             service: 'A game against time',
-            imageSRC: './CodeQuizcard.png',
+            imageSRC: codequizpicture,
             url: 'https://wendyf02.github.io/Code-Quiz/'
         },
 
@@ -30,7 +35,7 @@ export default
             id: 2,
             title: 'Work Day Schedule',
             service: 'A simple App that allows user to save events in a day',
-            imageSRC: './workdaycard.png',
+            imageSRC: workdaypicture,
             url: 'https://wendyf02.github.io/Work-Day-Schedule/'
         },
         
@@ -38,7 +43,7 @@ export default
             id: 3,
             title: 'Project-Give-Back',
             service: 'An App that provide user information on the impact fast fashion and effect on environment',
-            imageSRC: './projectgivebackcard.png',
+            imageSRC: projectgivebackpicture,
             url: 'https://tasoko.github.io/project-give-back/'
         },
         
@@ -52,18 +57,18 @@ export default
         
         {
             id: 5,
-            title: 'Note Taker',
+            title: 'Budget Tracker',
             service: 'This app is used to write & save and delete notes',
-            imageSRC: './notetakercard.png',
-            url: 'https://hidden-ravine-43471.herokuapp.com/'
+            imageSRC: budgettrackerpicture ,
+            url: 'https://github.com/Wendyf02/Team-Profile-Generator'
         },
         
         {
             id: 6,
-            title: 'Budget Tracker',
+            title: 'Unifying Our Vote',
             service: 'This app is used to track your budget',
-            imageSRC: './budgettrackercard.png',
-            url: 'https://github.com/Wendyf02/Team-Profile-Generator'
+            imageSRC: unifyingourvotepicture ,
+            url: 'https://polar-chamber-52452.herokuapp.com/'
         }
 
 

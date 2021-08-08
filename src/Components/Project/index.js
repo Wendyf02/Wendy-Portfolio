@@ -9,21 +9,26 @@ class Project extends Component {
     
   };
 
-
-  // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
+
     return (
+
         <div>
+
+        <h2 className="display-3 text-center font-weight-bold" id="project">Project</h2>
+
           {this.state.projects.map(project => (
           <Card
             id={project.id}
             key={project.id}
            title={project.title}
             imageSRC={project.imageSRC}
-            // occupation={project.occupation}
-            // location={project.location}
+            service={project.service}
+            url={project.url}
           />
+
          ))}
+         
         </div>
     );
   }
