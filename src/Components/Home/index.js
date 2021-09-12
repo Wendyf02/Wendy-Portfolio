@@ -11,12 +11,12 @@ function Home() {
          <Container fluid>
             <div className="container-fluid" id="hero">
      
-               <div className="heading-content text-center">
+               {/* <div className="heading-content text-center">
                     <h5>Hello, I'm</h5>
                     <h1>Wendy Figueroa</h1>
-               </div>
+               </div> */}
 
-               {/* <h2 className="diplay-3 text-center font-weight-bold" id="quote1"> "Hello I am Wendy Figueroa" </h2>  */}
+               <h3 className="diplay-3 text-center font-weight-bold" id="quote1"> "Hello I am Wendy Figueroa" </h3> 
            
             </div>
 

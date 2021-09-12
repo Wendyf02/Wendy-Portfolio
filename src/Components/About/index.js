@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import image2  from "../../image/image2.jpg"
 import { Col, Row } from "react-bootstrap";
+import "./style.css";
 
 class About extends Component {
 
