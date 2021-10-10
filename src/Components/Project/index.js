@@ -16,7 +16,7 @@ class Project extends Component {
 
         <div>
 
-        <h2 className="display-3 text-center font-weight-bold" id="project">Project</h2>
+        <h2 className="display-3 text-center font-weight-bold" id="projects">Project</h2>
        <Row> 
           {this.state.projects.map(project => (
           <Col md="4">   
