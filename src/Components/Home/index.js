@@ -16,7 +16,7 @@ function Home() {
                     <h1>Wendy Figueroa</h1>
                </div> */}
 
-               <h3 className="diplay-3 text-center font-weight-bold" id="quote1"> "Hello I am Wendy Figueroa" </h3> 
+               {/* <h3 className="diplay-3 text-center font-weight-bold" id="quote1"> "Hello I am Wendy Figueroa" </h3>  */}
            
             </div>
 
