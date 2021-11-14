@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import data from '../Project/data';
 import emailjs from 'emailjs-com';
 import { init } from 'emailjs-com';
-
+import "./style.css"
 init("user_fkf7rlYJJ67b6fsbLeCPP");
 
 
@@ -25,17 +25,28 @@ class Contact extends Component {
   render() {
 
     return (
-      <div>
+      <div className="contactcontainer"> 
+
+      <div className="contactcard">
+
         <h2 className="display-3 text-center font-weight-bold" id="contact">Contact</h2>
+        
         <form className="contact-form" onSubmit={this.sendEmail}>
-          <input type="hidden" name="contact_number" />
-          <label>Name</label>
-          <input type="text" name="user_name" />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
+
+          {/* <input className="text-input" type="hidden" name="contact_number" /> */}
+          {/* <label className="contactlabel"></label> */}
+          {/* <br/> */}
+          <input placeholder="Name" type="text" name="user_name" />
+          <br/>
+          {/* <label className="contactlabel"></label> */}
+          <input placeholder="Email" type="email" name="user_email"/>
+          <br/>
+          {/* <label className="contactlabel">Message</label> */}
+          <textarea className="textarea-message" placeholder="Message" name="message" />
+          <br/>
+
+          <input className="button" type="submit" value="Send"/>
+
         </form>
 
         <div className='contact-content'>
@@ -50,11 +61,13 @@ class Contact extends Component {
 
           </ul>
         </div>
-
+     
 
         <span className='Footer'>Alternate website design<a href="https://github.com/Wendyf02"> Wendy's original website</a></span>
       </div>
-
+    
+      </div>
+    
     );
   }
 }
