@@ -17,12 +17,11 @@ class Project extends Component {
         <div>
 
         <h2 className="display-3 text-center font-weight-bold" id="projects">Project</h2>
-       <Row> 
+       <Row className="justify-content-md-center"> 
           {this.state.projects.map(project => (
-          <Col md="4">   
-          <Card
-            id={project.id}
-            key={project.id}
+          <Col md="4" className="justify-content-md-center" key={project.id} >   
+          <Card 
+            id={project.id} 
            title={project.title}
             imageSRC={project.imageSRC}
             service={project.service}

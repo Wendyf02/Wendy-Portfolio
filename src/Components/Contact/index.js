@@ -63,7 +63,7 @@ class Contact extends Component {
         </div>
      
 
-        <span className='Footer'>Alternate website design<a href="https://github.com/Wendyf02"> Wendy's original website</a></span>
+        <span className='Footer text-center'>Alternate website design<a href="https://github.com/Wendyf02"> Wendy's original website</a></span>
       </div>
     
       </div>

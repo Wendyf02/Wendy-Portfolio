@@ -16,11 +16,11 @@
   
 .contactcontainer {
     display: flex;
-    min-height: 200vh;
+    /* min-height: 200vh; */
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    margin-top: 50px;
+    margin-top: 60px;
+    margin-bottom: 80px;
   }
 
   h2 {
@@ -53,7 +53,6 @@ form input {
 }
 
 
-  
 .contactlabel {
      color: rgb(44, 247, 3);
      font-size: x-large;
@@ -88,4 +87,9 @@ form input {
     font-size: medium;
     margin: 3px;
   }
+
+.contact-content {
+  font-size: medium;
+  color: #ed1c24;
+}
   

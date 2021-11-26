@@ -1,9 +1,10 @@
 import React from "react";
+import Button from "react-bootstrap/Button"
 import "./style.css";
 
 function Card(props) {
   return (
-    <div className="card">
+    <div className="card d-flex justify-content-around">
       
       <div className="img-container">
         <img alt={props.name} src={props.imageSRC} />
@@ -14,17 +15,16 @@ function Card(props) {
             <strong>Title:</strong> {props.title}
           </li>
           <li>
-            <strong>Service:</strong> {props.occupation}
+            <strong>Service:</strong> {props.service}
           </li>
-          <li>
-            <strong>Url:</strong> {props.location}
-          </li>
+          <div  className="d-flex justify-content-center">
+            {/* <strong>Url:</strong>  */}
+            <a target="blank" href={props.url}> <Button className="link1"  variant="outline-danger">Link</Button>{' '}</a>
+          </div>
          
         </ul>
       </div>
-      {/* <span onClick={() => props.removeFriend(props.id)} className="remove">
-        𝘅
-      </span> */}
+
     </div>
   );
 }

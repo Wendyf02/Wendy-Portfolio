@@ -7,6 +7,8 @@
   width: 325px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
+  margin-right: 20px;
+  margin-left: 60px;
 }
 
 .card > .img-container {
@@ -44,4 +46,28 @@
 
 .card > .remove:hover {
   color: #d50000;
+}
+
+
+.link1 {
+  background-color:solid white!important;
+  color: rgb(237, 28, 36);
+  font-size: small;
+  border-radius: 25px !important;
+  border: 2px solid rgb(237, 28, 36) !important;
+  width: 120px;
+  height: 40px;
+  /* float: right;  */
+  right: 0; 
+  margin-right: 25px;
+  /* margin-left: 25px; */
+  /* margin: 10px; */
+  
+}
+
+.link1:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 rgb(18, 30, 66)!important;
+  transition: transform 150ms;
+  transform: scale(1.03);
+  
 }

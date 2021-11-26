@@ -26,48 +26,48 @@ export default
         {
             id: 1,
             title: 'Code Quiz',
-            service: 'A game against time',
             imageSRC: codequizpicture,
+            service: 'A game against time',
             url: 'https://wendyf02.github.io/Code-Quiz/'
         },
 
         {
             id: 2,
             title: 'Work Day Schedule',
-            service: 'A simple App that allows user to save events in a day',
             imageSRC: workdaypicture,
+            service: 'A simple App that allows user to save events in a day',     
             url: 'https://wendyf02.github.io/Work-Day-Schedule/'
         },
         
         {
             id: 3,
             title: 'Project-Give-Back',
-            service: 'An App that provide user information on the impact fast fashion and effect on environment',
             imageSRC: projectgivebackpicture,
+            service: 'An App that provide user information on the impact fast fashion and effect on environment',       
             url: 'https://tasoko.github.io/project-give-back/'
         },
         
         {
             id: 4,
             title: 'Der-Gut-Good Burger',
-            service: 'This App let user add burger to eat-devour',
             imageSRC: burgerpicture,
+            service: 'This App let user add burger to eat-devour',
             url: 'https://quiet-scrubland-98672.herokuapp.com/'
         },
         
         {
             id: 5,
             title: 'Budget Tracker',
-            service: 'This app is used to write & save and delete notes',
             imageSRC: budgettrackerpicture ,
+            service: 'This app is used to write & save and delete notes',           
             url: 'https://github.com/Wendyf02/Team-Profile-Generator'
         },
         
         {
             id: 6,
             title: 'Unifying Our Vote',
-            service: 'This app is used to track your budget',
             imageSRC: unifyingourvotepicture ,
+            service: 'This app is used to track your budget',           
             url: 'https://polar-chamber-52452.herokuapp.com/'
         }
 
